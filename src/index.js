@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Box} from "./Boxes";
 
 ReactDOM.render(
   <React.StrictMode>
+      <Box className={'smallBox'} label={'Smallbox'}/>
+      <Box className={'normalBox'} label={'Normalbox'}/>
+      <Box className={'bigBox'} label={'Bigbox'}/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

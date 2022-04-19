@@ -1,0 +1,17 @@
+.smallBox {
+    width: 100px;
+    height: 100px;
+    background-color: #986311;
+}
+
+.normalBox {
+    width: 150px;
+    height: 150px;
+    background-color: #453150;
+}
+
+.bigBox {
+    width: 200px;
+    height: 200px;
+    background-color: #086311;
+}
