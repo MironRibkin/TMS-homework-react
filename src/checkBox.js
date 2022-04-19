@@ -2,10 +2,10 @@ import React from "react";
 
 export function CheckBox() {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [state, setState] = React.useState('V')
+    const [state, setState] = React.useState('X')
 
     const onChangeState = () => {
-        state === 'V' ? setState('X') : setState('V');
+        state === 'X' ? setState('V') : setState('X');
     }
     const checkBoxStyle = {
         width: '50px',
