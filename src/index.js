@@ -7,7 +7,9 @@ import {CatsGames} from "./catsGame";
 
 ReactDOM.render(
   <React.StrictMode>
-      <CatsGames></CatsGames>
+      <CatsGames>
+          <div className='catsDiv'/>
+      </CatsGames>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
@@ -15,3 +17,5 @@ ReactDOM.render(
 
 
 reportWebVitals();
+
+
