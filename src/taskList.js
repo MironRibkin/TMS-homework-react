@@ -8,7 +8,7 @@ export const TaskList = (props) => {
         setDone(prev => !prev)
     }
 
-    return (<div style={.style} onClick={toggleCheckbox}>
+    return (<div className='style' onClick={toggleCheckbox}>
         <input type='checkbox' defaultChecked={done} checked={done}/>
         <span className='keys'>
             {props.number}.
