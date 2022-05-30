@@ -4,8 +4,8 @@ import './style.css';
 const defaultBtnStyle = {
     border: '1px solid red',
     borderRadius: "50%",
-    width: '150px',
-    height: '150px',
+    width: '200px',
+    height: '200px',
     backgroundColor: 'red',
     display: 'flex',
     justifyContent: 'center',
@@ -25,8 +25,8 @@ const CatsGames = () => {
 
     const random = {
         backgroundColor: '#' + randomMove(16777215).toString(16),
-        top: randomMove(850),
-        left: randomMove(850)
+        top: randomMove(750),
+        left: randomMove(750)
     }
 
     const handleClick = () => {
