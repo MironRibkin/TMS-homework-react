@@ -1,0 +1,23 @@
+.CatsGames {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid #000;
+}
+
+.defaultBtnStyle {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    position: absolute;
+    box-sizing: border-box;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
