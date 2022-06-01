@@ -1,1 +1,1 @@
-export {default} from './catsGame';
+export {default} from './СatsGame';
